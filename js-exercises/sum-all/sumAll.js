@@ -6,11 +6,11 @@ function sumAll(numArr) {
 	const smallNo = sortedArr[0];
   const largeNo = sortedArr[1];
   
-	let sum = largeNo;
+	let total = largeNo;
 	for (let i = smallNo; i < largeNo; i++) {
-		sum = sum + i;
+		total = total + i;
 	}
-	return sum;
+	return total;
 }
 
 export { sumAll };

@@ -16,10 +16,10 @@ function primeFactorsTo(max) {
 
 function sumPrimes(num) {
 	const fibSeq = primeFactorsTo(num);
-	const sum = fibSeq.reduce((acc, val) => {
+	const total = fibSeq.reduce((acc, val) => {
 		return acc + val;
 	}, 0);
-	return sum;
+	return total;
 }
 
 export { sumPrimes };

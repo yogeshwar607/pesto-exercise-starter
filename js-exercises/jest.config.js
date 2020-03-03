@@ -3,5 +3,5 @@ module.exports = {
   transform: {
     '^.+\\.(js|ts)$': 'babel-jest',
   },
-  testEnvironment: 'node',
+   testEnvironment: 'node',
 };

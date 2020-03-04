@@ -1,4 +1,5 @@
 function duplicateLetters(...args) {
+
 	const strSet = new Set(args[0].split('')); // breaking down string in SET to remove duplicates
 	let count = 1;
 	
@@ -7,7 +8,6 @@ function duplicateLetters(...args) {
 		occurence > count ? (count = occurence) : count; // if occurence greater than count , replace count with occurence 
 	});
 
-	return count < 2 ? false : count; // if one occurence then send false
 }
 
 export { duplicateLetters };

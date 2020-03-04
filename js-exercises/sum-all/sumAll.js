@@ -1,4 +1,5 @@
 function sumAll(numArr) {
+
   // sort arr to find smaller & larger number
 	const sortedArr = numArr.sort(function(a, b) {
 		return a - b;
@@ -11,6 +12,7 @@ function sumAll(numArr) {
 		total = total + i;
 	}
 	return total;
+
 }
 
 export { sumAll };

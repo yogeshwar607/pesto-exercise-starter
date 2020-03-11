@@ -8,6 +8,10 @@ function duplicateLetters(...args) {
 		occurence > count ? (count = occurence) : count; // if occurence greater than count , replace count with occurence 
 	});
 
+
+	return count < 2 ? false : count; // if one occurence then send false
+
+
 }
 
 export { duplicateLetters };
